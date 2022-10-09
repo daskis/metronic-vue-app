@@ -2,7 +2,6 @@
   <div class="wrapper">
     <div class="wrapper__logo">
       <img src="@/assets/default-small.svg" alt="logo">
-      <h1 class="wrapper__title">Metronic</h1>
     </div>
     <div class="auth">
       <h2 class="auth__title">Sign in to Metronic</h2>
@@ -22,7 +21,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .wrapper {
   font-size: 14px;
   height: 100vh;
@@ -33,12 +32,14 @@ export default {
   background-color: #F5F8FA;
 
   &__logo {
+
     margin-bottom: 50px;
     display: flex;
     align-items: center;
 
     & img {
-      width: 65px;
+      width: 160px;
+      height: fit-content;
       margin-right: 4px;
     }
   }
